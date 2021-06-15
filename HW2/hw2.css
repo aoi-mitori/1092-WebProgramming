@@ -1,0 +1,93 @@
+.main{
+    padding: 70px;
+}
+td{
+    padding: 2.5px;
+}
+#board{
+    position:absolute;
+    top:120px;
+    left: 25%;
+}
+#time{
+    margin-top: 50px;
+    font-family: monospace;
+    color: #e5eeeb;
+    position:absolute;
+    font-size: 45px;
+    left: 40%;
+}
+img{
+    width: 140px;
+    border-radius: 4px;
+}
+#home{
+    position: absolute;
+    top:40px;
+    left: 15%;
+}
+#start{
+    position: absolute;
+    top: 210px;
+    left: 15%;
+}
+#hint{
+    position: absolute;
+    top: 290px;
+    left: 15%;
+}
+#reference{
+    position: absolute;
+    top: 370px;
+    left: 15%;
+}
+.down{
+    z-index:1;
+    position: absolute;
+    left:0px;
+    font-size: 65px;
+    color: #84a79b;
+}
+
+.up{
+    z-index:2;
+    color: white;
+    font-size: 33px;
+}
+.fa-home{
+    position: absolute;
+    left:13px;
+    top: 13px;
+}
+.fa-play{
+    position: absolute;
+    left:20px;
+    top: 15px;
+}
+.fa-pause{
+    position: absolute;
+    left:18px;
+    top: 15px;
+}
+.fa-lightbulb{
+    position: absolute;
+    left:19.5px;
+    top: 16px;
+}
+.fa-book{
+    position: absolute;
+    left:17.5px;
+    top: 16px;
+}
+.my-button:hover .down{
+    opacity: 0.6;
+}
+
+#floyd{
+    position: absolute;
+    left: 77%;
+    width:20%;
+    bottom: 0px;
+}
+
+
